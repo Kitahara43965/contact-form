@@ -9,7 +9,6 @@
   <div class="confirm__heading">
     <h2>お問い合わせ内容確認</h2>
   </div>
-  <?php print_r($contact['name']) ?>
   <form class="form" action="/contacts" method="post">
     @csrf
     <div class="confirm-table">
